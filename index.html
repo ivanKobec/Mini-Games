@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мини-игры</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Мини-игры</h1>
+    <p>Выберите уровень сложности и начните игру!</p>
+  </header>
+  <main>
+    <div id="menu" class="menu">
+      <h2>Меню</h2>
+      <label for="difficulty" class="difficulty-label">Уровень сложности:</label>
+      <select id="difficulty" class="difficulty-select">
+        <option value="" disabled selected>Выберите уровень</option>
+        <option value="easy">Лёгкий</option>
+        <option value="medium">Средний</option>
+        <option value="hard">Сложный</option>
+      </select>
+      <button class="menu-button" onclick="startCatchBallGame()">Поймай шарик</button>
+      <button class="menu-button" onclick="startClickerGame()">Кликер</button>
+      <button class="menu-button" onclick="startMathGame()">Простая математика</button>
+    </div>
+    <div id="gameArea" class="game-area" style="display: none;"></div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Мини-игры. Все права защищены.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

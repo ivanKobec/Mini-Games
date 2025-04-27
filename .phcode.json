@@ -1,0 +1,7 @@
+{
+    "livePreviewUseDevServer": true,
+    "livePreviewServerURL": "",
+    "livePreviewServerProjectPath": "/",
+    "livePreviewHotReloadSupported": false,
+    "livePreviewFramework": "Docusaurus"
+}
